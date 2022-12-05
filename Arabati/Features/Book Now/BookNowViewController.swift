@@ -15,7 +15,22 @@ class BookNowViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var CheckBox1: UIButton!{
+        didSet{
+            CheckBox1.setImage(UIImage(named:"unchecked"), for: .normal)
+            CheckBox1.setImage(UIImage(named:"checked"), for: .selected)
+             }
+    }
+    
+    @IBAction func CheckBox1(_ sender: UIButton) {
+        sender.checkboxAnimation {
+    
+            //here you can also track the Checked, UnChecked state with sender.isSelected
+            print(sender.isSelected)
+            
+        }
+}
+    }
     /*
     // MARK: - Navigation
 
@@ -26,4 +41,4 @@ class BookNowViewController: UIViewController {
     }
     */
 
-}
+

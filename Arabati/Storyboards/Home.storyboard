@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lgp-nS-8G5">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lgp-nS-8G5">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -15,7 +14,7 @@
                 <navigationController id="Lgp-nS-8G5" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" selectedImage="house" catalog="system" id="zOg-NQ-zFI"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="B3Z-Dt-CZT">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -31,7 +30,7 @@
             <objects>
                 <viewController id="IH2-pG-bR0" customClass="HomeViewController" customModule="Arabati" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dyo-bD-EcD">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backgraund" translatesAutoresizingMaskIntoConstraints="NO" id="GSo-A1-Qf8">
@@ -39,16 +38,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJ3-ph-RHe" userLabel="Book Now View">
-                                <rect key="frame" x="50" y="256" width="293" height="100"/>
+                                <rect key="frame" x="50" y="278" width="314" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="احجز عربتك الآن" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqL-qu-ZJk">
-                                        <rect key="frame" x="10" y="10" width="196" height="80"/>
+                                        <rect key="frame" x="10" y="10" width="217" height="80"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IFl-yX-B8K">
-                                        <rect key="frame" x="221" y="25" width="50" height="50"/>
+                                        <rect key="frame" x="242" y="25" width="50" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="9er-q8-kEF"/>
                                             <constraint firstAttribute="height" constant="50" id="Jv3-aS-xCf"/>
@@ -69,16 +68,16 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="21m-Fs-uu3" userLabel="Schedule Order View">
-                                <rect key="frame" x="50" y="396" width="293" height="100"/>
+                                <rect key="frame" x="50" y="418" width="314" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="جدول حجوزاتك" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MCv-9q-qZ9">
-                                        <rect key="frame" x="10" y="10" width="196" height="80"/>
+                                        <rect key="frame" x="10" y="10" width="217" height="80"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qaL-8T-yHX">
-                                        <rect key="frame" x="221" y="25" width="50" height="50"/>
+                                        <rect key="frame" x="242" y="25" width="50" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="Zx6-Mb-WfI"/>
                                             <constraint firstAttribute="height" constant="50" id="qc2-fb-vxW"/>
@@ -120,7 +119,7 @@
     </scenes>
     <resources>
         <image name="backgraund" width="393" height="865"/>
-        <image name="house" catalog="system" width="128" height="104"/>
+        <image name="house" catalog="system" width="128" height="106"/>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

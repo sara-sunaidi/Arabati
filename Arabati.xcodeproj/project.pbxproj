@@ -16,6 +16,7 @@
 		56304589293CF063006840A2 /* BookNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56304588293CF063006840A2 /* BookNowViewController.swift */; };
 		5630458B293D0751006840A2 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5630458A293D0751006840A2 /* OrdersViewController.swift */; };
 		5630458D293D080B006840A2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5630458C293D080B006840A2 /* ProfileViewController.swift */; };
+		7106CA69293E434300447E5C /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7106CA68293E434300447E5C /* UIButton+Extensions.swift */; };
 		71D2F5BA293E293C00DCA5D4 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D2F5B9293E293C00DCA5D4 /* Home.storyboard */; };
 		71D2F5BC293E2A0300DCA5D4 /* MyOrders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D2F5BB293E2A0300DCA5D4 /* MyOrders.storyboard */; };
 		71D2F5BF293E2A2900DCA5D4 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D2F5BD293E2A2900DCA5D4 /* Profile.storyboard */; };
@@ -36,6 +37,7 @@
 		56304588293CF063006840A2 /* BookNowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNowViewController.swift; sourceTree = "<group>"; };
 		5630458A293D0751006840A2 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		5630458C293D080B006840A2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7106CA68293E434300447E5C /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
 		71D2F5B9293E293C00DCA5D4 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		71D2F5BB293E2A0300DCA5D4 /* MyOrders.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyOrders.storyboard; sourceTree = "<group>"; };
 		71D2F5BE293E2A2900DCA5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Arabati/Storyboards/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				71D2F5CB293E30D600DCA5D4 /* UIView+Extensions.swift */,
+				7106CA68293E434300447E5C /* UIButton+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71D2F5CC293E30D600DCA5D4 /* UIView+Extensions.swift in Sources */,
+				7106CA69293E434300447E5C /* UIButton+Extensions.swift in Sources */,
 				5630458D293D080B006840A2 /* ProfileViewController.swift in Sources */,
 				5630458B293D0751006840A2 /* OrdersViewController.swift in Sources */,
 				56304589293CF063006840A2 /* BookNowViewController.swift in Sources */,

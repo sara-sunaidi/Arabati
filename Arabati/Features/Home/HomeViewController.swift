@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  Arabati
 //
 //  Created by Sara Alsunaidi on 04/12/2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     @IBOutlet weak var BookNowButton: UIButton!
     @IBOutlet weak var ScheduleButton: UIButton!
@@ -15,8 +15,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        AddShadow(BookNowButton)
-        AddShadow(ScheduleButton)
+//        AddShadow(BookNowButton)
+//        AddShadow(ScheduleButton)
         self.tabBarController?.tabBar.tintColor = .white
         self.tabBarController?.tabBar.unselectedItemTintColor = UIColor(red: 71/255, green: 73/255, blue: 61/255, alpha: 1.0)
 
@@ -47,14 +47,6 @@ class ViewController: UIViewController {
                     tabBarItem1.selectedImage = UIImage(systemName: "person")
                 }
 
-    }
-    
-    func AddShadow(_ button: UIButton){
-        button.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
-        button.layer.shadowOffset = CGSize(width: 0.0, height: 3.0)
-        button.layer.shadowOpacity = 0.8
-        button.layer.shadowRadius = 0.0
-        button.layer.masksToBounds = false
     }
 
 

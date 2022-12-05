@@ -61,6 +61,10 @@ class BookNowViewController: UIViewController {
             
         }
     }
+    @IBAction func nextButton(_ sender: UIButton) {
+        navigationController?.pushVC(storyboard: UIStoryboard.bookNow, VCIdetifier: "BookNow2ViewController", animated: true)
+
+    }
 }
     /*
     // MARK: - Navigation

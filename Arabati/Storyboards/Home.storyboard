@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lgp-nS-8G5">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lgp-nS-8G5">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -14,7 +15,7 @@
                 <navigationController id="Lgp-nS-8G5" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" selectedImage="house" catalog="system" id="zOg-NQ-zFI"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="B3Z-Dt-CZT">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -30,24 +31,52 @@
             <objects>
                 <viewController id="IH2-pG-bR0" customClass="HomeViewController" customModule="Arabati" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dyo-bD-EcD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backgraund" translatesAutoresizingMaskIntoConstraints="NO" id="GSo-A1-Qf8">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJ3-ph-RHe" userLabel="Book Now View">
-                                <rect key="frame" x="50" y="278" width="314" height="100"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="21m-Fs-uu3" userLabel="Schedule Order View">
+                                <rect key="frame" x="40" y="444" width="313" height="80"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="احجز عربتك الآن" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqL-qu-ZJk">
-                                        <rect key="frame" x="10" y="10" width="217" height="80"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="جدول حجوزاتك" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MCv-9q-qZ9">
+                                        <rect key="frame" x="10" y="10" width="216" height="60"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" red="0.2627450980392157" green="0.35686274509803922" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IFl-yX-B8K">
-                                        <rect key="frame" x="242" y="25" width="50" height="50"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alarm" translatesAutoresizingMaskIntoConstraints="NO" id="qaL-8T-yHX">
+                                        <rect key="frame" x="241" y="15" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="Zx6-Mb-WfI"/>
+                                            <constraint firstAttribute="height" constant="50" id="qc2-fb-vxW"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93697959180000001" green="0.93000084159999996" blue="0.89411252740000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="MhF-Nb-3H1"/>
+                                    <constraint firstItem="qaL-8T-yHX" firstAttribute="centerY" secondItem="21m-Fs-uu3" secondAttribute="centerY" id="NZl-UP-7fv"/>
+                                    <constraint firstAttribute="trailing" secondItem="qaL-8T-yHX" secondAttribute="trailing" constant="22" id="ShK-m0-rLB"/>
+                                    <constraint firstItem="MCv-9q-qZ9" firstAttribute="leading" secondItem="21m-Fs-uu3" secondAttribute="leading" constant="10" id="Tse-Rf-rAH"/>
+                                    <constraint firstAttribute="bottom" secondItem="MCv-9q-qZ9" secondAttribute="bottom" constant="10" id="bsc-NF-s9r"/>
+                                    <constraint firstItem="qaL-8T-yHX" firstAttribute="leading" secondItem="MCv-9q-qZ9" secondAttribute="trailing" constant="15" id="uU2-6k-Y6B"/>
+                                    <constraint firstItem="MCv-9q-qZ9" firstAttribute="top" secondItem="21m-Fs-uu3" secondAttribute="top" constant="10" id="zlS-an-JmV"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJ3-ph-RHe" userLabel="Book Now View">
+                                <rect key="frame" x="40" y="314" width="313" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="احجز عربتك الآن" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqL-qu-ZJk">
+                                        <rect key="frame" x="10" y="10" width="216" height="60"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <color key="textColor" red="0.2627450980392157" green="0.35686274509803922" blue="0.44313725490196076" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="handicap" translatesAutoresizingMaskIntoConstraints="NO" id="IFl-yX-B8K">
+                                        <rect key="frame" x="241" y="15" width="50" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="9er-q8-kEF"/>
                                             <constraint firstAttribute="height" constant="50" id="Jv3-aS-xCf"/>
@@ -60,57 +89,31 @@
                                     <constraint firstItem="IFl-yX-B8K" firstAttribute="centerY" secondItem="fJ3-ph-RHe" secondAttribute="centerY" id="GvD-jH-x01"/>
                                     <constraint firstItem="IFl-yX-B8K" firstAttribute="leading" secondItem="fqL-qu-ZJk" secondAttribute="trailing" constant="15" id="HB6-Sv-aSR"/>
                                     <constraint firstItem="fqL-qu-ZJk" firstAttribute="leading" secondItem="fJ3-ph-RHe" secondAttribute="leading" constant="10" id="SWQ-Vb-QFd"/>
-                                    <constraint firstAttribute="bottom" secondItem="IFl-yX-B8K" secondAttribute="bottom" constant="25" id="b8Y-hu-Tb7"/>
                                     <constraint firstAttribute="trailing" secondItem="IFl-yX-B8K" secondAttribute="trailing" constant="22" id="dgW-aR-QaB"/>
-                                    <constraint firstItem="IFl-yX-B8K" firstAttribute="top" secondItem="fJ3-ph-RHe" secondAttribute="top" constant="25" id="ppH-38-oK4"/>
-                                    <constraint firstAttribute="height" constant="100" id="r9v-cI-USy"/>
+                                    <constraint firstAttribute="height" constant="80" id="r9v-cI-USy"/>
                                     <constraint firstAttribute="bottom" secondItem="fqL-qu-ZJk" secondAttribute="bottom" constant="10" id="zsD-Xb-WxK"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="21m-Fs-uu3" userLabel="Schedule Order View">
-                                <rect key="frame" x="50" y="418" width="314" height="100"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="جدول حجوزاتك" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MCv-9q-qZ9">
-                                        <rect key="frame" x="10" y="10" width="217" height="80"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qaL-8T-yHX">
-                                        <rect key="frame" x="242" y="25" width="50" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="50" id="Zx6-Mb-WfI"/>
-                                            <constraint firstAttribute="height" constant="50" id="qc2-fb-vxW"/>
-                                        </constraints>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" red="0.93697959180000001" green="0.93000084159999996" blue="0.89411252740000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="MhF-Nb-3H1"/>
-                                    <constraint firstAttribute="bottom" secondItem="qaL-8T-yHX" secondAttribute="bottom" constant="25" id="NMC-Xf-YNV"/>
-                                    <constraint firstItem="qaL-8T-yHX" firstAttribute="centerY" secondItem="21m-Fs-uu3" secondAttribute="centerY" id="NZl-UP-7fv"/>
-                                    <constraint firstAttribute="trailing" secondItem="qaL-8T-yHX" secondAttribute="trailing" constant="22" id="ShK-m0-rLB"/>
-                                    <constraint firstItem="MCv-9q-qZ9" firstAttribute="leading" secondItem="21m-Fs-uu3" secondAttribute="leading" constant="10" id="Tse-Rf-rAH"/>
-                                    <constraint firstAttribute="bottom" secondItem="MCv-9q-qZ9" secondAttribute="bottom" constant="10" id="bsc-NF-s9r"/>
-                                    <constraint firstItem="qaL-8T-yHX" firstAttribute="top" secondItem="21m-Fs-uu3" secondAttribute="top" constant="25" id="ibP-fA-Vyo"/>
-                                    <constraint firstItem="qaL-8T-yHX" firstAttribute="leading" secondItem="MCv-9q-qZ9" secondAttribute="trailing" constant="15" id="uU2-6k-Y6B"/>
-                                    <constraint firstItem="MCv-9q-qZ9" firstAttribute="top" secondItem="21m-Fs-uu3" secondAttribute="top" constant="10" id="zlS-an-JmV"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="C6J-2W-9VJ"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
                         <constraints>
-                            <constraint firstItem="C6J-2W-9VJ" firstAttribute="trailing" secondItem="fJ3-ph-RHe" secondAttribute="trailing" constant="50" id="1Ab-Co-5EM"/>
+                            <constraint firstItem="C6J-2W-9VJ" firstAttribute="trailing" secondItem="fJ3-ph-RHe" secondAttribute="trailing" constant="40" id="1Ab-Co-5EM"/>
                             <constraint firstItem="21m-Fs-uu3" firstAttribute="leading" secondItem="fJ3-ph-RHe" secondAttribute="leading" id="D2D-NB-6ln"/>
-                            <constraint firstItem="21m-Fs-uu3" firstAttribute="top" secondItem="fJ3-ph-RHe" secondAttribute="bottom" constant="40" id="Q8Z-kF-1SP"/>
+                            <constraint firstItem="21m-Fs-uu3" firstAttribute="top" secondItem="fJ3-ph-RHe" secondAttribute="bottom" constant="50" id="Q8Z-kF-1SP"/>
                             <constraint firstItem="fJ3-ph-RHe" firstAttribute="centerX" secondItem="Dyo-bD-EcD" secondAttribute="centerX" id="SMd-9f-9Jv"/>
-                            <constraint firstItem="fJ3-ph-RHe" firstAttribute="centerY" secondItem="Dyo-bD-EcD" secondAttribute="centerY" constant="-120" id="fxH-ge-ElD"/>
+                            <constraint firstItem="fJ3-ph-RHe" firstAttribute="centerY" secondItem="Dyo-bD-EcD" secondAttribute="centerY" constant="-72" id="fxH-ge-ElD"/>
                             <constraint firstItem="21m-Fs-uu3" firstAttribute="trailing" secondItem="fJ3-ph-RHe" secondAttribute="trailing" id="grl-3C-rTV"/>
-                            <constraint firstItem="fJ3-ph-RHe" firstAttribute="leading" secondItem="C6J-2W-9VJ" secondAttribute="leading" constant="50" id="kHg-ih-KRm"/>
+                            <constraint firstItem="fJ3-ph-RHe" firstAttribute="leading" secondItem="C6J-2W-9VJ" secondAttribute="leading" constant="40" id="kHg-ih-KRm"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ixq-WD-FpH"/>
+                    <connections>
+                        <outlet property="bookNowImageView" destination="IFl-yX-B8K" id="IiL-L1-qwV"/>
+                        <outlet property="bookNowView" destination="fJ3-ph-RHe" id="6R5-pD-qfa"/>
+                        <outlet property="scheduleOrderImageView" destination="qaL-8T-yHX" id="pB6-Q0-t4M"/>
+                        <outlet property="scheduleOrderView" destination="21m-Fs-uu3" id="jxL-SG-IpQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a05-gP-Ywb" sceneMemberID="firstResponder"/>
             </objects>
@@ -118,8 +121,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="alarm" width="45" height="40"/>
         <image name="backgraund" width="393" height="865"/>
-        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="handicap" width="45" height="45"/>
+        <image name="house" catalog="system" width="128" height="104"/>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

@@ -14,7 +14,8 @@ class OrderDetailsViewController: UIViewController {
     
     @IBOutlet weak var SecondView: UIView!
     @IBOutlet weak var ThirdView: UIView!
-   
+       
+    @IBOutlet weak var PayButton2: UIButton!
     @IBOutlet weak var map: MKMapView!
     
     override func viewDidLoad() {
@@ -28,8 +29,10 @@ class OrderDetailsViewController: UIViewController {
         FirstView.layer.cornerRadius = 15
         SecondView.layer.cornerRadius = 15
         ThirdView.layer.cornerRadius = 15
-        //FirstView.addShadow()
-                
+        PayButton2.addShadow()
+        PayButton2.layer.cornerRadius = 20
+
+        
     }
 
     /*

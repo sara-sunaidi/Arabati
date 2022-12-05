@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="-1133" y="656"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="WxQ-ai-JEN">
             <objects>
-                <viewController id="IH2-pG-bR0" customClass="ViewController" customModule="Arabati" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="IH2-pG-bR0" customClass="HomeViewController" customModule="Arabati" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dyo-bD-EcD">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -94,16 +94,62 @@
                                     <constraint firstAttribute="bottom" secondItem="fqL-qu-ZJk" secondAttribute="bottom" constant="10" id="zsD-Xb-WxK"/>
                                 </constraints>
                             </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0zT-Rn-svi">
+                                <rect key="frame" x="15" y="50" width="363" height="60"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oBB-w5-v9h" userLabel="Logo">
+                                        <rect key="frame" x="0.0" y="0.0" width="121" height="60"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ArabatiFullLogo" translatesAutoresizingMaskIntoConstraints="NO" id="fjH-dZ-VR7">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="JPp-xR-OmU"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="fjH-dZ-VR7" firstAttribute="leading" secondItem="oBB-w5-v9h" secondAttribute="leading" id="ZT5-TE-4ud"/>
+                                            <constraint firstAttribute="bottom" secondItem="fjH-dZ-VR7" secondAttribute="bottom" id="uUU-lh-UF9"/>
+                                            <constraint firstItem="fjH-dZ-VR7" firstAttribute="top" secondItem="oBB-w5-v9h" secondAttribute="top" id="vHS-Ka-Z0w"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SCL-dM-RBQ" userLabel="empty">
+                                        <rect key="frame" x="121" y="0.0" width="121" height="60"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JoG-ex-jHN" userLabel="buttons">
+                                        <rect key="frame" x="242" y="0.0" width="121" height="60"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notification" translatesAutoresizingMaskIntoConstraints="NO" id="xXW-Cw-oSo">
+                                                <rect key="frame" x="76" y="15" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="Cs0-ns-sYz"/>
+                                                    <constraint firstAttribute="width" constant="40" id="KoK-Jq-MNO"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="xXW-Cw-oSo" secondAttribute="trailing" constant="5" id="7t8-Fq-J3Y"/>
+                                            <constraint firstItem="xXW-Cw-oSo" firstAttribute="centerY" secondItem="JoG-ex-jHN" secondAttribute="centerY" constant="5" id="ey9-9Y-8TD"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="hkb-cj-SI9"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="C6J-2W-9VJ"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
                         <constraints>
                             <constraint firstItem="C6J-2W-9VJ" firstAttribute="trailing" secondItem="fJ3-ph-RHe" secondAttribute="trailing" constant="40" id="1Ab-Co-5EM"/>
                             <constraint firstItem="21m-Fs-uu3" firstAttribute="leading" secondItem="fJ3-ph-RHe" secondAttribute="leading" id="D2D-NB-6ln"/>
+                            <constraint firstItem="C6J-2W-9VJ" firstAttribute="trailing" secondItem="0zT-Rn-svi" secondAttribute="trailing" constant="15" id="Ni4-3J-YKN"/>
                             <constraint firstItem="21m-Fs-uu3" firstAttribute="top" secondItem="fJ3-ph-RHe" secondAttribute="bottom" constant="50" id="Q8Z-kF-1SP"/>
                             <constraint firstItem="fJ3-ph-RHe" firstAttribute="centerX" secondItem="Dyo-bD-EcD" secondAttribute="centerX" id="SMd-9f-9Jv"/>
                             <constraint firstItem="fJ3-ph-RHe" firstAttribute="centerY" secondItem="Dyo-bD-EcD" secondAttribute="centerY" constant="-72" id="fxH-ge-ElD"/>
+                            <constraint firstItem="0zT-Rn-svi" firstAttribute="leading" secondItem="C6J-2W-9VJ" secondAttribute="leading" constant="15" id="gSY-7W-rcV"/>
                             <constraint firstItem="21m-Fs-uu3" firstAttribute="trailing" secondItem="fJ3-ph-RHe" secondAttribute="trailing" id="grl-3C-rTV"/>
+                            <constraint firstItem="0zT-Rn-svi" firstAttribute="top" secondItem="Dyo-bD-EcD" secondAttribute="top" constant="50" id="hfV-0V-8dk"/>
                             <constraint firstItem="fJ3-ph-RHe" firstAttribute="leading" secondItem="C6J-2W-9VJ" secondAttribute="leading" constant="40" id="kHg-ih-KRm"/>
                         </constraints>
                     </view>
@@ -117,14 +163,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a05-gP-Ywb" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-379" y="656"/>
+            <point key="canvasLocation" x="-379.38931297709922" y="655.63380281690149"/>
         </scene>
     </scenes>
     <resources>
+        <image name="ArabatiFullLogo" width="652" height="300"/>
         <image name="alarm" width="45" height="40"/>
         <image name="backgraund" width="393" height="865"/>
         <image name="handicap" width="45" height="45"/>
         <image name="house" catalog="system" width="128" height="104"/>
+        <image name="notification" width="26" height="29"/>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

@@ -39,7 +39,33 @@ class ScheduleOrderViewController: UIViewController {
         nextButtton.layer.cornerRadius = 20
         nextButtton.addShadow()
     }
+    @IBAction func checkBox1(_ sender: UIButton) {
+        sender.checkboxAnimation {
+    
+     
+            
+        }
+    }
+    
+    @IBAction func checkBox2(_ sender: UIButton) {
+        sender.checkboxAnimation {
+            
+        }
+    }
+    @IBAction func checkBox3(_ sender: UIButton) {
+        sender.checkboxAnimation {
+    
+            
+        }
+    }
     @IBAction func nextButton2(_ sender: UIButton) {
+        if checkBox3.currentImage == UIImage(named:"checkedcCheckbox"){
             navigationController?.pushVC(storyboard: UIStoryboard.scheduleOrder, VCIdetifier: "ScheduleOrder2ViewController", animated: true)
+        }else{
+        if checkBox2.currentImage == UIImage(named:"checkedcCheckbox") || checkBox1.currentImage == UIImage(named:"checkedcCheckbox") {
+            navigationController?.pushVC(storyboard: UIStoryboard.scheduleOrder, VCIdetifier: "ScheduleOrder2ViewController", animated: true)//change to offers list
+
+            
+        }}
     }
 }

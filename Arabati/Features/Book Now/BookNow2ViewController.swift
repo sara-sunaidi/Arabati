@@ -23,14 +23,13 @@ class BookNow2ViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
+    @IBAction func nextButton(_ sender: UIButton) {
+        // to offers list page
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
-    */
-
+    
+    @IBAction func previousButton(_ sender: UIButton) {
+        navigationController?.popToVC(VCIdetifier:"BookNowViewController" , animated: true)
+    }
+    
 }

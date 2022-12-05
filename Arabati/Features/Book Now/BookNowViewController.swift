@@ -62,11 +62,15 @@ class BookNowViewController: UIViewController {
         }
     }
     @IBAction func nextButton(_ sender: UIButton) {
-        navigationController?.pushVC(storyboard: UIStoryboard.bookNow, VCIdetifier: "BookNow2ViewController", animated: true)
+        
+        if CheckBox3.currentImage == UIImage(named:"checkedcCheckbox"){
+            navigationController?.pushVC(storyboard: UIStoryboard.bookNow, VCIdetifier: "BookNow2ViewController", animated: true)}
+        else{
+        if CheckBox2.currentImage == UIImage(named:"checkedcCheckbox") || CheckBox1.currentImage == UIImage(named:"checkedcCheckbox") {
+            navigationController?.pushVC(storyboard: UIStoryboard.bookNow, VCIdetifier: "BookNow2ViewController", animated: true)//change to offers list
 
-    }
-}
-    /*
+        }}
+    }}/*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation

@@ -107,6 +107,9 @@
                                             </attributedString>
                                         </state>
                                         <buttonConfiguration key="configuration" style="filled"/>
+                                        <connections>
+                                            <action selector="checkBox1:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="skE-5R-uO9"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kdc-st-nVp">
                                         <rect key="frame" x="283" y="99" width="14" height="11"/>
@@ -123,6 +126,9 @@
                                             </attributedString>
                                         </state>
                                         <buttonConfiguration key="configuration" style="filled"/>
+                                        <connections>
+                                            <action selector="checkBox2:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="9E1-fg-Is6"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ask-d7-q4i">
                                         <rect key="frame" x="283" y="129" width="14" height="11"/>
@@ -139,6 +145,9 @@
                                             </attributedString>
                                         </state>
                                         <buttonConfiguration key="configuration" style="filled"/>
+                                        <connections>
+                                            <action selector="checkBox3:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="fpk-3l-5yw"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.90588235294117647" green="0.90588235294117647" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
@@ -227,6 +236,9 @@
                                     </attributedString>
                                     <color key="baseForegroundColor" red="0.26274509800000001" green="0.35686274509999999" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="nextButton:" destination="fIa-lv-65Z" eventType="touchUpInside" id="8B6-Jo-ptp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3HF-O1-4Ok">
                                 <rect key="frame" x="222" y="701" width="172" height="53"/>
@@ -250,6 +262,9 @@
                                     </attributedString>
                                     <color key="baseForegroundColor" red="0.26274509800000001" green="0.35686274509999999" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="previousButton:" destination="fIa-lv-65Z" eventType="touchUpInside" id="xzp-hH-myb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dFj-zV-V77"/>

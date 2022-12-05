@@ -214,6 +214,9 @@
                                     </attributedString>
                                     <color key="baseForegroundColor" red="0.26274509800000001" green="0.35686274509999999" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="nextButton:" destination="Noj-kw-xH7" eventType="touchUpInside" id="1zz-03-ngT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOp-5h-mrO">
                                 <rect key="frame" x="222" y="701" width="172" height="53"/>
@@ -237,6 +240,9 @@
                                     </attributedString>
                                     <color key="baseForegroundColor" red="0.26274509800000001" green="0.35686274509999999" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="previousButton:" destination="Noj-kw-xH7" eventType="touchUpInside" id="Q2c-w3-ypf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Pxb-Oc-stg"/>

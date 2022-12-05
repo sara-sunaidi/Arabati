@@ -11,12 +11,21 @@ import MapKit
 class OrderDetailsViewController: UIViewController {
 
     @IBOutlet weak var FirstView: UIView!
-    
     @IBOutlet weak var SecondView: UIView!
     @IBOutlet weak var ThirdView: UIView!
-       
+    
     @IBOutlet weak var PayButton2: UIButton!
+    
+    
+    @IBOutlet weak var visaButton: UIButton!
+    @IBOutlet weak var applePayButton: UIButton!
+    @IBOutlet weak var cashButton: UIButton!
+    
     @IBOutlet weak var map: MKMapView!
+    
+    var visa = false
+    var applePay = false
+    var cash = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +44,39 @@ class OrderDetailsViewController: UIViewController {
         
     }
 
+    func changeSelection(_ button: UIButton){
+        
+        visaButton.setBackgroundImage(UIImage(named: "uncheckedRadio"), for: UIControl.State.normal)
+        applePayButton.setBackgroundImage(UIImage(named: "uncheckedRadio"), for: UIControl.State.normal)
+        cashButton.setBackgroundImage(UIImage(named: "uncheckedRadio"), for: UIControl.State.normal)
+        
+        button.setBackgroundImage(UIImage(named: "checkedRadio"), for: UIControl.State.normal)
+        
+        
+    }
+    @IBAction func clickVisa(_ sender: UIButton) {
+        changeSelection(visaButton)
+        
+         visa = true
+         applePay = false
+         cash = false
+    }
+    
+    @IBAction func clickApplePay(_ sender: UIButton) {
+        changeSelection(applePayButton)
+        
+        visa = false
+        applePay = true
+        cash = false
+    }
+    
+    @IBAction func clickCash(_ sender: UIButton) {
+        changeSelection(cashButton)
+        
+        visa = false
+        applePay = false
+        cash = true
+    }
     /*
     // MARK: - Navigation
 

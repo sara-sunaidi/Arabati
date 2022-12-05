@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ArabatiLogo.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

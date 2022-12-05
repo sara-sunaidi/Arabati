@@ -13,7 +13,6 @@
 		56304576293CE955006840A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56304574293CE955006840A2 /* Main.storyboard */; };
 		56304578293CE957006840A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56304577293CE957006840A2 /* Assets.xcassets */; };
 		5630457B293CE957006840A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56304579293CE957006840A2 /* LaunchScreen.storyboard */; };
-		56304583293CEFDB006840A2 /* BookNowView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56304582293CEFDB006840A2 /* BookNowView.storyboard */; };
 		56304589293CF063006840A2 /* BookNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56304588293CF063006840A2 /* BookNowViewController.swift */; };
 		5630458B293D0751006840A2 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5630458A293D0751006840A2 /* OrdersViewController.swift */; };
 		5630458D293D080B006840A2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5630458C293D080B006840A2 /* ProfileViewController.swift */; };
@@ -34,7 +33,6 @@
 		56304577293CE957006840A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5630457A293CE957006840A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5630457C293CE957006840A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56304582293CEFDB006840A2 /* BookNowView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BookNowView.storyboard; sourceTree = "<group>"; };
 		56304588293CF063006840A2 /* BookNowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNowViewController.swift; sourceTree = "<group>"; };
 		5630458A293D0751006840A2 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		5630458C293D080B006840A2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 				71D2F5C2293E2B1C00DCA5D4 /* ScheduleOrder.storyboard */,
 				71D2F5BB293E2A0300DCA5D4 /* MyOrders.storyboard */,
 				71D2F5BD293E2A2900DCA5D4 /* Profile.storyboard */,
-				56304582293CEFDB006840A2 /* BookNowView.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -235,7 +232,6 @@
 				56304576293CE955006840A2 /* Main.storyboard in Resources */,
 				71D2F5BF293E2A2900DCA5D4 /* Profile.storyboard in Resources */,
 				71D2F5C3293E2B1C00DCA5D4 /* ScheduleOrder.storyboard in Resources */,
-				56304583293CEFDB006840A2 /* BookNowView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

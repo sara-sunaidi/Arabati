@@ -67,7 +67,7 @@ class HomeViewController: UIViewController {
     }
     
     @objc private func scheduleOrderTapped(){
-        navigationController?.pushVC(storyboard: UIStoryboard.scheduleOrder, VCIdetifier: "ScheduleOrderViewController", animated: true)
+        navigationController?.pushVC(storyboard: UIStoryboard.orderDetails, VCIdetifier: "OrderDetailsViewController", animated: true)
     }
 }
 

@@ -6,15 +6,31 @@
 //
 
 import UIKit
+import MapKit
 
 class OrderDetailsViewController: UIViewController {
 
+    @IBOutlet weak var FirstView: UIView!
+    
+    @IBOutlet weak var SecondView: UIView!
+    @IBOutlet weak var ThirdView: UIView!
+   
+    @IBOutlet weak var map: MKMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setUpOrderDetailsButtuns()
+        
         // Do any additional setup after loading the view.
     }
     
+    func setUpOrderDetailsButtuns() {
+        FirstView.layer.cornerRadius = 15
+        SecondView.layer.cornerRadius = 15
+        ThirdView.layer.cornerRadius = 15
+        //FirstView.addShadow()
+                
+    }
 
     /*
     // MARK: - Navigation

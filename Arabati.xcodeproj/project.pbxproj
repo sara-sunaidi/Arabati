@@ -16,6 +16,8 @@
 		56304589293CF063006840A2 /* BookNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56304588293CF063006840A2 /* BookNowViewController.swift */; };
 		5630458B293D0751006840A2 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5630458A293D0751006840A2 /* OrdersViewController.swift */; };
 		5630458D293D080B006840A2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5630458C293D080B006840A2 /* ProfileViewController.swift */; };
+		5630458F293E3BEB006840A2 /* OrderDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5630458E293E3BEA006840A2 /* OrderDetails.storyboard */; };
+		56304592293E3C25006840A2 /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56304591293E3C25006840A2 /* OrderDetailsViewController.swift */; };
 		71D2F5BA293E293C00DCA5D4 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D2F5B9293E293C00DCA5D4 /* Home.storyboard */; };
 		71D2F5BC293E2A0300DCA5D4 /* MyOrders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D2F5BB293E2A0300DCA5D4 /* MyOrders.storyboard */; };
 		71D2F5BF293E2A2900DCA5D4 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D2F5BD293E2A2900DCA5D4 /* Profile.storyboard */; };
@@ -36,6 +38,8 @@
 		56304588293CF063006840A2 /* BookNowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNowViewController.swift; sourceTree = "<group>"; };
 		5630458A293D0751006840A2 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		5630458C293D080B006840A2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5630458E293E3BEA006840A2 /* OrderDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OrderDetails.storyboard; sourceTree = "<group>"; };
+		56304591293E3C25006840A2 /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
 		71D2F5B9293E293C00DCA5D4 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		71D2F5BB293E2A0300DCA5D4 /* MyOrders.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyOrders.storyboard; sourceTree = "<group>"; };
 		71D2F5BE293E2A2900DCA5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Arabati/Storyboards/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 		56304584293CEFFC006840A2 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				56304590293E3C04006840A2 /* OrderDetails */,
 				71D2F5C5293E2FA100DCA5D4 /* Home */,
 				71D2F5C7293E2FB800DCA5D4 /* Schedule Order */,
 				71D2F5C6293E2FAD00DCA5D4 /* Book Now */,
@@ -106,8 +111,17 @@
 				71D2F5C2293E2B1C00DCA5D4 /* ScheduleOrder.storyboard */,
 				71D2F5BB293E2A0300DCA5D4 /* MyOrders.storyboard */,
 				71D2F5BD293E2A2900DCA5D4 /* Profile.storyboard */,
+				5630458E293E3BEA006840A2 /* OrderDetails.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		56304590293E3C04006840A2 /* OrderDetails */ = {
+			isa = PBXGroup;
+			children = (
+				56304591293E3C25006840A2 /* OrderDetailsViewController.swift */,
+			);
+			path = OrderDetails;
 			sourceTree = "<group>";
 		};
 		71D2F5C4293E2F6100DCA5D4 /* Extensions */ = {
@@ -224,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5630458F293E3BEB006840A2 /* OrderDetails.storyboard in Resources */,
 				71D2F5C1293E2A7D00DCA5D4 /* BookNow.storyboard in Resources */,
 				5630457B293CE957006840A2 /* LaunchScreen.storyboard in Resources */,
 				71D2F5BA293E293C00DCA5D4 /* Home.storyboard in Resources */,
@@ -242,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56304592293E3C25006840A2 /* OrderDetailsViewController.swift in Sources */,
 				71D2F5CC293E30D600DCA5D4 /* UIView+Extensions.swift in Sources */,
 				5630458D293D080B006840A2 /* ProfileViewController.swift in Sources */,
 				5630458B293D0751006840A2 /* OrdersViewController.swift in Sources */,

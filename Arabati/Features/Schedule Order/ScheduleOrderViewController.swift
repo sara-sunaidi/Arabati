@@ -33,6 +33,12 @@ class ScheduleOrderViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+        setUpViews()
+    }
+    
+    func setUpViews() {
+        navigationItem.title = " "
         dateView.layer.cornerRadius = 20
         locationView.layer.cornerRadius = 20
         servicesView.layer.cornerRadius = 20
@@ -42,8 +48,6 @@ class ScheduleOrderViewController: UIViewController {
     @IBAction func checkBox1(_ sender: UIButton) {
         sender.checkboxAnimation {
     
-     
-            
         }
     }
     
@@ -55,7 +59,6 @@ class ScheduleOrderViewController: UIViewController {
     @IBAction func checkBox3(_ sender: UIButton) {
         sender.checkboxAnimation {
     
-            
         }
     }
     @IBAction func nextButton2(_ sender: UIButton) {

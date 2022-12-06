@@ -37,22 +37,22 @@
                             <rect key="frame" x="15" y="42.333333333333329" width="358" height="131.66666666666669"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="2yC-gH-sYO">
-                                    <rect key="frame" x="0.0" y="32.999999999999993" width="278" height="65.666666666666657"/>
+                                    <rect key="frame" x="0.0" y="33.666666666666664" width="278" height="64.666666666666686"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="أحمد محمد" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MEM-wb-YW7">
-                                            <rect key="frame" x="0.0" y="0.0" width="278" height="20.333333333333332"/>
-                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="278" height="19.333333333333332"/>
+                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
                                             <color key="textColor" red="0.46274509800000002" green="0.45882352939999999" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="٥٠ ر.س" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m4D-dD-GrT">
-                                            <rect key="frame" x="0.0" y="24.333333333333343" width="278" height="20.333333333333329"/>
+                                            <rect key="frame" x="0.0" y="23.333333333333329" width="278" height="20.333333333333329"/>
                                             <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                             <color key="textColor" red="0.72549019607843135" green="0.63921568627450975" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="١٣/١٢/٢٠٢٢ " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZaL-I4-0yu">
-                                            <rect key="frame" x="0.0" y="48.666666666666671" width="278" height="17"/>
+                                            <rect key="frame" x="0.0" y="47.666666666666657" width="278" height="17"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <color key="textColor" red="0.76078431372549016" green="0.76078431372549016" blue="0.76078431372549016" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>

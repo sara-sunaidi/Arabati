@@ -156,7 +156,9 @@
                             <constraint firstAttribute="bottom" secondItem="GSo-A1-Qf8" secondAttribute="bottom" id="thT-kr-fzE"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Ixq-WD-FpH"/>
+                    <navigationItem key="navigationItem" id="Ixq-WD-FpH">
+                        <barButtonItem key="backBarButtonItem" title=" " id="Fsp-Cz-kfW"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="bookNowImageView" destination="IFl-yX-B8K" id="IiL-L1-qwV"/>
                         <outlet property="bookNowView" destination="fJ3-ph-RHe" id="6R5-pD-qfa"/>

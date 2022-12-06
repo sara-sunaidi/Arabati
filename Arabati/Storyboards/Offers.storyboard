@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Offers View Controller-->
+        <scene sceneID="FUm-rx-ahe">
+            <objects>
+                <viewController storyboardIdentifier="OffersViewController" id="tdp-Dq-E7V" customClass="OffersViewController" customModule="Arabati" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tz3-P1-Mw1">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgraund" id="RT3-Uw-VeF">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="jLG-Y7-chT">
+                                <rect key="frame" x="20" y="185.33333333333331" width="353" height="532.66666666666674"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الرجاء اختيار العرض المناسب" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sRC-r1-kST">
+                                <rect key="frame" x="130.66666666666663" y="150" width="232.33333333333337" height="25.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(#)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfF-G2-aNS">
+                                <rect key="frame" x="25" y="150" width="50" height="25.333333333333343"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="tlA-V5-Pdu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.46274509800000002" green="0.45882352939999999" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8o-N0-5Kh">
+                                <rect key="frame" x="94.333333333333329" y="728" width="204.33333333333337" height="50"/>
+                                <color key="backgroundColor" red="0.92941176469999998" green="0.83529411760000005" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="204.5" id="CfX-bf-dfm"/>
+                                    <constraint firstAttribute="height" constant="50" id="ZEx-7f-LrF"/>
+                                </constraints>
+                                <color key="tintColor" red="0.92941176469999998" green="0.83529411760000005" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" subtitle="">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="اتمام الطلب">
+                                            <attributes>
+                                                <font key="NSFont" size="20" name="GeezaPro-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.26274509800000001" green="0.35686274509999999" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="sendTapped:" destination="tdp-Dq-E7V" eventType="touchUpInside" id="SIP-LQ-Gqf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kCf-rX-auf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kCf-rX-auf" firstAttribute="trailing" secondItem="sRC-r1-kST" secondAttribute="trailing" constant="30" id="1oW-4F-P7p"/>
+                            <constraint firstItem="N8o-N0-5Kh" firstAttribute="top" secondItem="jLG-Y7-chT" secondAttribute="bottom" constant="10" id="38q-Kx-InI"/>
+                            <constraint firstItem="zfF-G2-aNS" firstAttribute="leading" secondItem="kCf-rX-auf" secondAttribute="leading" constant="25" id="4ld-cS-qea"/>
+                            <constraint firstItem="jLG-Y7-chT" firstAttribute="top" secondItem="sRC-r1-kST" secondAttribute="bottom" constant="10" id="8dP-WO-Cow"/>
+                            <constraint firstItem="sRC-r1-kST" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="zfF-G2-aNS" secondAttribute="trailing" constant="5" id="9HC-5H-Ukk"/>
+                            <constraint firstItem="kCf-rX-auf" firstAttribute="trailing" secondItem="jLG-Y7-chT" secondAttribute="trailing" constant="20" id="HcM-hW-sph"/>
+                            <constraint firstItem="zfF-G2-aNS" firstAttribute="top" secondItem="sRC-r1-kST" secondAttribute="top" id="HiY-bf-aZM"/>
+                            <constraint firstItem="sRC-r1-kST" firstAttribute="top" secondItem="tz3-P1-Mw1" secondAttribute="topMargin" constant="91" id="Lmv-qa-k5W"/>
+                            <constraint firstItem="jLG-Y7-chT" firstAttribute="top" secondItem="sRC-r1-kST" secondAttribute="bottom" constant="10" id="aTo-YZ-UXB"/>
+                            <constraint firstItem="kCf-rX-auf" firstAttribute="bottom" secondItem="N8o-N0-5Kh" secondAttribute="bottom" constant="40" id="bld-oX-7SJ"/>
+                            <constraint firstItem="jLG-Y7-chT" firstAttribute="leading" secondItem="kCf-rX-auf" secondAttribute="leading" constant="20" id="mI9-21-ksH"/>
+                            <constraint firstItem="zfF-G2-aNS" firstAttribute="bottom" secondItem="sRC-r1-kST" secondAttribute="bottom" id="w6d-x3-tlm"/>
+                            <constraint firstItem="N8o-N0-5Kh" firstAttribute="centerX" secondItem="tz3-P1-Mw1" secondAttribute="centerX" id="xKU-wD-Far"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gAF-Ue-fi4">
+                        <barButtonItem key="backBarButtonItem" title=" " id="ydk-w6-nRJ"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="numberOfOrders" destination="zfF-G2-aNS" id="zm3-QS-j7U"/>
+                        <outlet property="sendButton" destination="N8o-N0-5Kh" id="GMV-cA-79A"/>
+                        <outlet property="tableView" destination="jLG-Y7-chT" id="2uI-3l-nZz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Af5-cy-Mem" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="429.7709923664122" y="655.63380281690149"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backgraund" width="393" height="865"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

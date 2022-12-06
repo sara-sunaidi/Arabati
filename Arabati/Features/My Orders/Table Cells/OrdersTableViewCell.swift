@@ -24,6 +24,7 @@ class OrdersTableViewCell: UITableViewCell {
 
     func setUpContentView() {
         backgroundColor = UIColor.clear
+        selectionStyle = .none
         cellContentView.layer.cornerRadius = 20
         cellContentView.backgroundColor = UIColor.white
         cellContentView.layer.borderWidth = 0.05

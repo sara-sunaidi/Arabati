@@ -16,11 +16,11 @@
 		56304589293CF063006840A2 /* BookNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56304588293CF063006840A2 /* BookNowViewController.swift */; };
 		5630458B293D0751006840A2 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5630458A293D0751006840A2 /* OrdersViewController.swift */; };
 		5630458D293D080B006840A2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5630458C293D080B006840A2 /* ProfileViewController.swift */; };
+		5630458F293E3BEB006840A2 /* OrderDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5630458E293E3BEA006840A2 /* OrderDetails.storyboard */; };
+		56304592293E3C25006840A2 /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56304591293E3C25006840A2 /* OrderDetailsViewController.swift */; };
 		7106CA69293E434300447E5C /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7106CA68293E434300447E5C /* UIButton+Extensions.swift */; };
 		7106CA6B293E648D00447E5C /* BookNow2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7106CA6A293E648D00447E5C /* BookNow2ViewController.swift */; };
 		7106CA6D293E69CE00447E5C /* ScheduleOrder2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7106CA6C293E69CE00447E5C /* ScheduleOrder2ViewController.swift */; };
-		5630458F293E3BEB006840A2 /* OrderDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5630458E293E3BEA006840A2 /* OrderDetails.storyboard */; };
-		56304592293E3C25006840A2 /* OrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56304591293E3C25006840A2 /* OrderDetailsViewController.swift */; };
 		71D2F5BA293E293C00DCA5D4 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D2F5B9293E293C00DCA5D4 /* Home.storyboard */; };
 		71D2F5BC293E2A0300DCA5D4 /* MyOrders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D2F5BB293E2A0300DCA5D4 /* MyOrders.storyboard */; };
 		71D2F5BF293E2A2900DCA5D4 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D2F5BD293E2A2900DCA5D4 /* Profile.storyboard */; };
@@ -34,6 +34,11 @@
 		71D2F5D8293E5BF200DCA5D4 /* OrdersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D2F5D7293E5BF200DCA5D4 /* OrdersTableViewCell.swift */; };
 		71D2F5DA293E5C2F00DCA5D4 /* OrdersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71D2F5D9293E5C2F00DCA5D4 /* OrdersTableViewCell.xib */; };
 		71F4102E293EEFF10006A4B7 /* OrdersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F4102D293EEFF10006A4B7 /* OrdersModel.swift */; };
+		71F41030293F03990006A4B7 /* Offers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F4102F293F03990006A4B7 /* Offers.storyboard */; };
+		71F41033293F03E20006A4B7 /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F41032293F03E20006A4B7 /* OffersViewController.swift */; };
+		71F41036293F04AB0006A4B7 /* OffersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F41035293F04AB0006A4B7 /* OffersTableViewCell.swift */; };
+		71F41038293F04C40006A4B7 /* OffersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71F41037293F04C40006A4B7 /* OffersTableViewCell.xib */; };
+		71F4103A293F09E50006A4B7 /* OffersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F41039293F09E50006A4B7 /* OffersModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,11 +53,11 @@
 		56304588293CF063006840A2 /* BookNowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNowViewController.swift; sourceTree = "<group>"; };
 		5630458A293D0751006840A2 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		5630458C293D080B006840A2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5630458E293E3BEA006840A2 /* OrderDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OrderDetails.storyboard; sourceTree = "<group>"; };
+		56304591293E3C25006840A2 /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
 		7106CA68293E434300447E5C /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
 		7106CA6A293E648D00447E5C /* BookNow2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNow2ViewController.swift; sourceTree = "<group>"; };
 		7106CA6C293E69CE00447E5C /* ScheduleOrder2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleOrder2ViewController.swift; sourceTree = "<group>"; };
-		5630458E293E3BEA006840A2 /* OrderDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OrderDetails.storyboard; sourceTree = "<group>"; };
-		56304591293E3C25006840A2 /* OrderDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsViewController.swift; sourceTree = "<group>"; };
 		71D2F5B9293E293C00DCA5D4 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		71D2F5BB293E2A0300DCA5D4 /* MyOrders.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyOrders.storyboard; sourceTree = "<group>"; };
 		71D2F5BE293E2A2900DCA5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Arabati/Storyboards/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
@@ -66,6 +71,11 @@
 		71D2F5D7293E5BF200DCA5D4 /* OrdersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewCell.swift; sourceTree = "<group>"; };
 		71D2F5D9293E5C2F00DCA5D4 /* OrdersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrdersTableViewCell.xib; sourceTree = "<group>"; };
 		71F4102D293EEFF10006A4B7 /* OrdersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersModel.swift; sourceTree = "<group>"; };
+		71F4102F293F03990006A4B7 /* Offers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Offers.storyboard; sourceTree = "<group>"; };
+		71F41032293F03E20006A4B7 /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		71F41035293F04AB0006A4B7 /* OffersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersTableViewCell.swift; sourceTree = "<group>"; };
+		71F41037293F04C40006A4B7 /* OffersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OffersTableViewCell.xib; sourceTree = "<group>"; };
+		71F41039293F09E50006A4B7 /* OffersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,10 +122,11 @@
 		56304584293CEFFC006840A2 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				56304590293E3C04006840A2 /* OrderDetails */,
 				71D2F5C5293E2FA100DCA5D4 /* Home */,
-				71D2F5C7293E2FB800DCA5D4 /* Schedule Order */,
 				71D2F5C6293E2FAD00DCA5D4 /* Book Now */,
+				71D2F5C7293E2FB800DCA5D4 /* Schedule Order */,
+				71F41031293F03B30006A4B7 /* Offers */,
+				56304590293E3C04006840A2 /* OrderDetails */,
 				71D2F5C9293E301E00DCA5D4 /* My Orders */,
 				71D2F5C8293E2FE000DCA5D4 /* Profile */,
 			);
@@ -129,9 +140,10 @@
 				71D2F5B9293E293C00DCA5D4 /* Home.storyboard */,
 				71D2F5C0293E2A7D00DCA5D4 /* BookNow.storyboard */,
 				71D2F5C2293E2B1C00DCA5D4 /* ScheduleOrder.storyboard */,
+				71F4102F293F03990006A4B7 /* Offers.storyboard */,
+				5630458E293E3BEA006840A2 /* OrderDetails.storyboard */,
 				71D2F5BB293E2A0300DCA5D4 /* MyOrders.storyboard */,
 				71D2F5BD293E2A2900DCA5D4 /* Profile.storyboard */,
-				5630458E293E3BEA006840A2 /* OrderDetails.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -218,6 +230,25 @@
 			path = "Table Cells";
 			sourceTree = "<group>";
 		};
+		71F41031293F03B30006A4B7 /* Offers */ = {
+			isa = PBXGroup;
+			children = (
+				71F41034293F04860006A4B7 /* Table Cells */,
+				71F41032293F03E20006A4B7 /* OffersViewController.swift */,
+			);
+			path = Offers;
+			sourceTree = "<group>";
+		};
+		71F41034293F04860006A4B7 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				71F41039293F09E50006A4B7 /* OffersModel.swift */,
+				71F41035293F04AB0006A4B7 /* OffersTableViewCell.swift */,
+				71F41037293F04C40006A4B7 /* OffersTableViewCell.xib */,
+			);
+			path = "Table Cells";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -280,12 +311,14 @@
 				71D2F5C1293E2A7D00DCA5D4 /* BookNow.storyboard in Resources */,
 				5630457B293CE957006840A2 /* LaunchScreen.storyboard in Resources */,
 				71D2F5DA293E5C2F00DCA5D4 /* OrdersTableViewCell.xib in Resources */,
+				71F41038293F04C40006A4B7 /* OffersTableViewCell.xib in Resources */,
 				71D2F5BA293E293C00DCA5D4 /* Home.storyboard in Resources */,
 				56304578293CE957006840A2 /* Assets.xcassets in Resources */,
 				71D2F5BC293E2A0300DCA5D4 /* MyOrders.storyboard in Resources */,
 				56304576293CE955006840A2 /* Main.storyboard in Resources */,
 				71D2F5BF293E2A2900DCA5D4 /* Profile.storyboard in Resources */,
 				71D2F5C3293E2B1C00DCA5D4 /* ScheduleOrder.storyboard in Resources */,
+				71F41030293F03990006A4B7 /* Offers.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,9 +339,12 @@
 				71F4102E293EEFF10006A4B7 /* OrdersModel.swift in Sources */,
 				5630456F293CE955006840A2 /* AppDelegate.swift in Sources */,
 				71D2F5D2293E3E3100DCA5D4 /* ScheduleOrderViewController.swift in Sources */,
+				71F4103A293F09E50006A4B7 /* OffersModel.swift in Sources */,
 				71D2F5D0293E3D2F00DCA5D4 /* UIStoryboard+Extensions.swift in Sources */,
 				7106CA6B293E648D00447E5C /* BookNow2ViewController.swift in Sources */,
 				71D2F5D4293E430700DCA5D4 /* UIColor+Extensions.swift in Sources */,
+				71F41033293F03E20006A4B7 /* OffersViewController.swift in Sources */,
+				71F41036293F04AB0006A4B7 /* OffersTableViewCell.swift in Sources */,
 				7106CA6D293E69CE00447E5C /* ScheduleOrder2ViewController.swift in Sources */,
 				56304571293CE955006840A2 /* SceneDelegate.swift in Sources */,
 				71D2F5D8293E5BF200DCA5D4 /* OrdersTableViewCell.swift in Sources */,

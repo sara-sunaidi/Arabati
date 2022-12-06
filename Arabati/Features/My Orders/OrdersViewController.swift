@@ -25,7 +25,7 @@ class OrdersViewController: UIViewController {
         tableView.backgroundColor = UIColor.clear
         tableView.delegate = self
         tableView.dataSource = self
-        numberOfOrders.text = "( \(orderType.allCases.count) )"
+        numberOfOrders.text = "( ٤ )"
     }
     
     private func registerTableViewCells() {

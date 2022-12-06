@@ -9,7 +9,7 @@ import UIKit
 import MapKit
 
 class OrderDetailsViewController: UIViewController {
-
+    
     @IBOutlet weak var FirstView: UIView!
     @IBOutlet weak var SecondView: UIView!
     @IBOutlet weak var ThirdView: UIView!
@@ -30,8 +30,6 @@ class OrderDetailsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpOrderDetailsButtuns()
-        
-        // Do any additional setup after loading the view.
     }
     
     func setUpOrderDetailsButtuns() {
@@ -40,10 +38,10 @@ class OrderDetailsViewController: UIViewController {
         ThirdView.layer.cornerRadius = 15
         PayButton2.addShadow()
         PayButton2.layer.cornerRadius = 20
-
+        
         
     }
-
+    
     func changeSelection(_ button: UIButton){
         
         visaButton.setBackgroundImage(UIImage(named: "uncheckedRadio"), for: UIControl.State.normal)
@@ -57,9 +55,9 @@ class OrderDetailsViewController: UIViewController {
     @IBAction func clickVisa(_ sender: UIButton) {
         changeSelection(visaButton)
         
-         visa = true
-         applePay = false
-         cash = false
+        visa = true
+        applePay = false
+        cash = false
     }
     
     @IBAction func clickApplePay(_ sender: UIButton) {
@@ -70,6 +68,11 @@ class OrderDetailsViewController: UIViewController {
         cash = false
     }
     
+    @IBAction func clickPayNow(_ sender: Any) {
+        let alert = UIAlertController(title: "تم الدفع", message: "تم الدفع بنجاح", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "حسنا", style: .default))
+        self.present(alert, animated: true)
+    }
     @IBAction func clickCash(_ sender: UIButton) {
         changeSelection(cashButton)
         
@@ -77,14 +80,4 @@ class OrderDetailsViewController: UIViewController {
         applePay = false
         cash = true
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

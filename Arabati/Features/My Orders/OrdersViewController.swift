@@ -53,4 +53,9 @@ extension OrdersViewController: UITableViewDelegate, UITableViewDataSource{
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row > 1 {return}
+        navigationController?.pushVC(storyboard: UIStoryboard.orderDetails, VCIdetifier: "OrderDetailsViewController", animated: true)
+    }
 }

@@ -67,7 +67,7 @@ class BookNowViewController: UIViewController {
             navigationController?.pushVC(storyboard: UIStoryboard.bookNow, VCIdetifier: "BookNow2ViewController", animated: true)}
         else{
         if CheckBox2.currentImage == UIImage(named:"checkedcCheckbox") || CheckBox1.currentImage == UIImage(named:"checkedcCheckbox") {
-            navigationController?.pushVC(storyboard: UIStoryboard.bookNow, VCIdetifier: "BookNow2ViewController", animated: true)//change to offers list
+            navigationController?.pushVC(storyboard: UIStoryboard.offers, VCIdetifier: "OffersViewController", animated: true)//change to offers list
 
         }}
     }}/*

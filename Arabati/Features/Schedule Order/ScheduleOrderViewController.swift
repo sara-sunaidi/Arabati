@@ -66,7 +66,7 @@ class ScheduleOrderViewController: UIViewController {
             navigationController?.pushVC(storyboard: UIStoryboard.scheduleOrder, VCIdetifier: "ScheduleOrder2ViewController", animated: true)
         }else{
         if checkBox2.currentImage == UIImage(named:"checkedcCheckbox") || checkBox1.currentImage == UIImage(named:"checkedcCheckbox") {
-            navigationController?.pushVC(storyboard: UIStoryboard.scheduleOrder, VCIdetifier: "ScheduleOrder2ViewController", animated: true)//change to offers list
+            navigationController?.pushVC(storyboard: UIStoryboard.offers, VCIdetifier: "OffersViewController", animated: true)
 
             
         }}

@@ -26,6 +26,9 @@
 		71D2F5D0293E3D2F00DCA5D4 /* UIStoryboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D2F5CF293E3D2F00DCA5D4 /* UIStoryboard+Extensions.swift */; };
 		71D2F5D2293E3E3100DCA5D4 /* ScheduleOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D2F5D1293E3E3100DCA5D4 /* ScheduleOrderViewController.swift */; };
 		71D2F5D4293E430700DCA5D4 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D2F5D3293E430700DCA5D4 /* UIColor+Extensions.swift */; };
+		71D2F5D8293E5BF200DCA5D4 /* OrdersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D2F5D7293E5BF200DCA5D4 /* OrdersTableViewCell.swift */; };
+		71D2F5DA293E5C2F00DCA5D4 /* OrdersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71D2F5D9293E5C2F00DCA5D4 /* OrdersTableViewCell.xib */; };
+		71F4102E293EEFF10006A4B7 /* OrdersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F4102D293EEFF10006A4B7 /* OrdersModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		71D2F5CF293E3D2F00DCA5D4 /* UIStoryboard+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extensions.swift"; sourceTree = "<group>"; };
 		71D2F5D1293E3E3100DCA5D4 /* ScheduleOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleOrderViewController.swift; sourceTree = "<group>"; };
 		71D2F5D3293E430700DCA5D4 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		71D2F5D7293E5BF200DCA5D4 /* OrdersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewCell.swift; sourceTree = "<group>"; };
+		71D2F5D9293E5C2F00DCA5D4 /* OrdersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrdersTableViewCell.xib; sourceTree = "<group>"; };
+		71F4102D293EEFF10006A4B7 /* OrdersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +170,7 @@
 		71D2F5C9293E301E00DCA5D4 /* My Orders */ = {
 			isa = PBXGroup;
 			children = (
+				71D2F5D6293E5BBB00DCA5D4 /* Table Cells */,
 				5630458A293D0751006840A2 /* OrdersViewController.swift */,
 			);
 			path = "My Orders";
@@ -176,6 +183,16 @@
 				5630456E293CE955006840A2 /* AppDelegate.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		71D2F5D6293E5BBB00DCA5D4 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				71F4102D293EEFF10006A4B7 /* OrdersModel.swift */,
+				71D2F5D7293E5BF200DCA5D4 /* OrdersTableViewCell.swift */,
+				71D2F5D9293E5C2F00DCA5D4 /* OrdersTableViewCell.xib */,
+			);
+			path = "Table Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +255,7 @@
 			files = (
 				71D2F5C1293E2A7D00DCA5D4 /* BookNow.storyboard in Resources */,
 				5630457B293CE957006840A2 /* LaunchScreen.storyboard in Resources */,
+				71D2F5DA293E5C2F00DCA5D4 /* OrdersTableViewCell.xib in Resources */,
 				71D2F5BA293E293C00DCA5D4 /* Home.storyboard in Resources */,
 				56304578293CE957006840A2 /* Assets.xcassets in Resources */,
 				71D2F5BC293E2A0300DCA5D4 /* MyOrders.storyboard in Resources */,
@@ -259,11 +277,13 @@
 				5630458B293D0751006840A2 /* OrdersViewController.swift in Sources */,
 				56304589293CF063006840A2 /* BookNowViewController.swift in Sources */,
 				56304573293CE955006840A2 /* HomeViewController.swift in Sources */,
+				71F4102E293EEFF10006A4B7 /* OrdersModel.swift in Sources */,
 				5630456F293CE955006840A2 /* AppDelegate.swift in Sources */,
 				71D2F5D2293E3E3100DCA5D4 /* ScheduleOrderViewController.swift in Sources */,
 				71D2F5D0293E3D2F00DCA5D4 /* UIStoryboard+Extensions.swift in Sources */,
 				71D2F5D4293E430700DCA5D4 /* UIColor+Extensions.swift in Sources */,
 				56304571293CE955006840A2 /* SceneDelegate.swift in Sources */,
+				71D2F5D8293E5BF200DCA5D4 /* OrdersTableViewCell.swift in Sources */,
 				71D2F5CE293E3CCE00DCA5D4 /* UINavigationController+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

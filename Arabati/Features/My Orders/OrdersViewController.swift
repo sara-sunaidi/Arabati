@@ -8,23 +8,49 @@
 import UIKit
 
 class OrdersViewController: UIViewController {
-
+    
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var numberOfOrders: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-
+        
+        setUpTableView()
+        registerTableViewCells()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    private func setUpTableView() {
+        tableView.rowHeight = UITableView.automaticDimension;
+        tableView.estimatedRowHeight = 115.0;
+        tableView.backgroundColor = UIColor.clear
+        tableView.delegate = self
+        tableView.dataSource = self
+        numberOfOrders.text = "( \(orderType.allCases.count) )"
     }
-    */
+    
+    private func registerTableViewCells() {
+        tableView.register(UINib(nibName: OrdersTableViewCell.nibName,
+                                 bundle: nil),
+                           forCellReuseIdentifier: "OrdersTableViewCell")
+        
+    }
+    
+}
 
+// MARK: - Table View Datasource and Delegate
+
+extension OrdersViewController: UITableViewDelegate, UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 4
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "OrdersTableViewCell") as! OrdersTableViewCell
+        
+        let currentOrder = orderType.allCases[indexPath.row]
+        cell.setOrder(from: currentOrder)
+        
+        return cell
+    }
 }

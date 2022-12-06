@@ -34,9 +34,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backgraund" translatesAutoresizingMaskIntoConstraints="NO" id="GSo-A1-Qf8">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgraund" translatesAutoresizingMaskIntoConstraints="NO" id="GSo-A1-Qf8">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="21m-Fs-uu3" userLabel="Schedule Order View">
                                 <rect key="frame" x="40" y="444" width="313" height="80"/>
@@ -143,14 +142,18 @@
                         <constraints>
                             <constraint firstItem="C6J-2W-9VJ" firstAttribute="trailing" secondItem="fJ3-ph-RHe" secondAttribute="trailing" constant="40" id="1Ab-Co-5EM"/>
                             <constraint firstItem="21m-Fs-uu3" firstAttribute="leading" secondItem="fJ3-ph-RHe" secondAttribute="leading" id="D2D-NB-6ln"/>
+                            <constraint firstItem="GSo-A1-Qf8" firstAttribute="top" secondItem="Dyo-bD-EcD" secondAttribute="top" id="J0R-0R-Z8a"/>
+                            <constraint firstAttribute="trailing" secondItem="GSo-A1-Qf8" secondAttribute="trailing" id="Lpj-YZ-V0e"/>
                             <constraint firstItem="C6J-2W-9VJ" firstAttribute="trailing" secondItem="0zT-Rn-svi" secondAttribute="trailing" constant="15" id="Ni4-3J-YKN"/>
                             <constraint firstItem="21m-Fs-uu3" firstAttribute="top" secondItem="fJ3-ph-RHe" secondAttribute="bottom" constant="50" id="Q8Z-kF-1SP"/>
                             <constraint firstItem="fJ3-ph-RHe" firstAttribute="centerX" secondItem="Dyo-bD-EcD" secondAttribute="centerX" id="SMd-9f-9Jv"/>
+                            <constraint firstItem="GSo-A1-Qf8" firstAttribute="leading" secondItem="C6J-2W-9VJ" secondAttribute="leading" id="WfR-wS-6Tg"/>
                             <constraint firstItem="fJ3-ph-RHe" firstAttribute="centerY" secondItem="Dyo-bD-EcD" secondAttribute="centerY" constant="-72" id="fxH-ge-ElD"/>
                             <constraint firstItem="0zT-Rn-svi" firstAttribute="leading" secondItem="C6J-2W-9VJ" secondAttribute="leading" constant="15" id="gSY-7W-rcV"/>
                             <constraint firstItem="21m-Fs-uu3" firstAttribute="trailing" secondItem="fJ3-ph-RHe" secondAttribute="trailing" id="grl-3C-rTV"/>
                             <constraint firstItem="0zT-Rn-svi" firstAttribute="top" secondItem="Dyo-bD-EcD" secondAttribute="top" constant="50" id="hfV-0V-8dk"/>
                             <constraint firstItem="fJ3-ph-RHe" firstAttribute="leading" secondItem="C6J-2W-9VJ" secondAttribute="leading" constant="40" id="kHg-ih-KRm"/>
+                            <constraint firstAttribute="bottom" secondItem="GSo-A1-Qf8" secondAttribute="bottom" id="thT-kr-fzE"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ixq-WD-FpH"/>
